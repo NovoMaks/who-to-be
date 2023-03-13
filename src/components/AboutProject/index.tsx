@@ -37,7 +37,7 @@ export default function AboutProject() {
       />
       <Goal className="mt-[-50px] lg:mt-[-70px] xl:mt-[-100px]" />
 
-      <Info className="mt-[100px]" />
+      <Info className="mt-[50px] md:mt-[80px] lg:mt-[100px]" />
 
       <div className="flex w-full flex-col items-center mt-[100px]">
         <div className="w-[80%]">
@@ -46,7 +46,7 @@ export default function AboutProject() {
         </div>
       </div>
 
-      <BlockSubTitle className="w-full mt-[50px]" textClass="text-[4em]" value="Участники" />
+      <BlockSubTitle className="w-full mt-[50px]" textClass="text-[4em]" value="Команда" />
       <div
         className={`w-full flex items-center justify-center mt-[-10px] md:mt-[-10px] lg:mt-[-30px] xl:mt-[-50px]`}
       >
