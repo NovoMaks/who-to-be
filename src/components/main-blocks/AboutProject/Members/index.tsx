@@ -8,7 +8,7 @@ export default function Members({ className }: Props) {
     <div className={`w-full flex items-center justify-center ${className}`}>
       <div className="w-[80%] flex flex-wrap gap-10 justify-center">
         <Member
-          imgPath="/My.jpg"
+          imgPath="/my.jpg"
           name="Новосельцев Максим"
           mainInfo="01. ____Основатель проекта, web-разработчик"
           desc={[
