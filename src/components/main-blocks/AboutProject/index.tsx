@@ -18,10 +18,10 @@ const sequence = [
 export default function AboutProject() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-[80%] mt-[100px]">
+      <div className="w-[80%] mt-[50px] md:mt-[80] lg:mt-[100px]">
         <BlockTitle num="01" value="О чем проект" />
         <TypeAnimation
-          className="text-[2em] lg:text-[3.5em] font-medium mt-4 min-h-[200px]"
+          className="text-[2em] lg:text-[3.5em] font-medium mt-4 min-h-[210px]"
           sequence={sequence}
           wrapper="div"
           cursor={true}
