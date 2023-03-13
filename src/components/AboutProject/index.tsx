@@ -3,7 +3,9 @@ import BlockTitle from "@/components/BlockTitle";
 import { TypeAnimation } from "react-type-animation";
 import Goal from "./Goal";
 import Info from "./Info";
-import Members from "./Members";
+import JoinInfo from "./JoinInfo";
+import SchoolInfo from "./SchoolInfo";
+import Team from "./Team";
 
 const sequence = [
   "Я хочу быть... программистом",
@@ -37,8 +39,30 @@ export default function AboutProject() {
 
       <Info className="mt-[100px]" />
 
+      <div className="flex w-full flex-col items-center mt-[100px]">
+        <div className="w-[80%]">
+          <BlockTitle className="font-bold text-lg" num="02" value="Если вы ученик или учитель" />
+          <SchoolInfo />
+        </div>
+      </div>
+
       <BlockSubTitle className="w-full mt-[50px]" textClass="text-[4em]" value="Участники" />
-      <Members className="mt-[-10px] md:mt-[-10px] lg:mt-[-30px] xl:mt-[-50px]" />
+      <div
+        className={`w-full flex items-center justify-center mt-[-10px] md:mt-[-10px] lg:mt-[-30px] xl:mt-[-50px]`}
+      >
+        <Team />
+      </div>
+
+      <div className="flex w-full flex-col items-center mt-[100px]">
+        <div className="w-[80%]">
+          <BlockTitle
+            className="font-bold text-lg"
+            num="03"
+            value="Если вы хотите стать частью команды"
+          />
+          <JoinInfo />
+        </div>
+      </div>
     </div>
   );
 }
