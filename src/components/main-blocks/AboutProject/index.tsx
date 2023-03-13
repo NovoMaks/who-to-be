@@ -19,7 +19,7 @@ export default function AboutProject() {
   return (
     <div className="flex flex-col items-center">
       <div className="w-[80%] mt-[100px]">
-        <BlockTitle className="font-bold text-lg" num="01" value="О чем проект" />
+        <BlockTitle num="01" value="О чем проект" />
         <TypeAnimation
           className="text-[2em] lg:text-[3.5em] font-medium mt-4 min-h-[200px]"
           sequence={sequence}
@@ -28,7 +28,11 @@ export default function AboutProject() {
         />
       </div>
 
-      <BlockSubTitle className="w-full lg:text-right mt-[-100px]" value="Цель" />
+      <BlockSubTitle
+        textClass="text-[8em]"
+        className="w-full lg:text-right mt-[-100px]"
+        value="Цель"
+      />
       <Goal className="mt-[-50px] lg:mt-[-70px] xl:mt-[-100px]" />
 
       <Info className="mt-[100px]" />

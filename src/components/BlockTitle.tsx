@@ -6,7 +6,7 @@ type Props = {
 
 export default function BlockTitle({ className, num, value }: Props) {
   return (
-    <div className={className}>
+    <div className={`font-bold ${className}`}>
       <h2 className="text-[1.5em]">{`${num}. _________${value}`}</h2>
     </div>
   );

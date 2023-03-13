@@ -12,14 +12,14 @@ export default function JoinInfo() {
           value="Если вы хотите стать частью команды"
         />
 
-        <div className="mt-[20px] flex items-center flex-wrap">
-          <p>Напишите в свободном формате о себе или задайте интересующий вопрос</p>
-          <div className="flex">
+        <div className="mt-[20px] flex flex-col">
+          <p>Напишите в свободном формате о себе или задайте интересующий вопрос:</p>
+          <div className="flex mt-2">
             <Link className="ml-2" passHref={true} href="https://stackoverflow.com/">
-              <Image src={"./telegram-app.svg"} width="30" height="30" alt=""></Image>
+              <Image src={"./telegram-app.svg"} width="40" height="40" alt=""></Image>
             </Link>
             <Link className="ml-2" passHref={true} href="https://stackoverflow.com/">
-              <Image src={"./whatsapp.svg"} width="30" height="30" alt=""></Image>
+              <Image src={"./whatsapp.svg"} width="40" height="40" alt=""></Image>
             </Link>
           </div>
         </div>
