@@ -16,7 +16,7 @@ export default function Header() {
       </div>
       <div className="ml-auto flex justify-center items-center">
         <p className="hidden md:block">Следи за нами в:</p>
-        <Link className="ml-2" passHref={true} href="https://stackoverflow.com/">
+        <Link target="_blank" className="ml-2" passHref={true} href="https://t.me/who_to_be">
           <Image src={"./telegram-app.svg"} width="30" height="30" alt=""></Image>
         </Link>
       </div>

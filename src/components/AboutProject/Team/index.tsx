@@ -2,7 +2,7 @@ import Member from "./Member";
 
 export default function Team() {
   return (
-    <div className="w-[80%] flex flex-wrap gap-10 justify-center">
+    <div className="w-[80%] flex flex-wrap gap-10 justify-center md:justify-start">
       <Member
         imgPath="/my.jpg"
         name="Новосельцев Максим"

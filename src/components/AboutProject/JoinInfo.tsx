@@ -6,10 +6,10 @@ export default function JoinInfo() {
     <div className="mt-[20px] flex flex-col">
       <p>Напишите в свободном формате о себе или задайте интересующий вопрос:</p>
       <div className="flex mt-2">
-        <Link className="ml-2" passHref={true} href="https://stackoverflow.com/">
+        <Link target="_blank" className="ml-2" passHref={true} href="https://t.me/novms">
           <Image src={"./telegram-app.svg"} width="40" height="40" alt=""></Image>
         </Link>
-        <Link className="ml-2" passHref={true} href="https://stackoverflow.com/">
+        <Link target="_blank" className="ml-2" passHref={true} href="https://wa.me/79017477053">
           <Image src={"./whatsapp.svg"} width="40" height="40" alt=""></Image>
         </Link>
       </div>
